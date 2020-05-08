@@ -77,7 +77,7 @@ git submodule add https://github.com/dillonzq/LoveIt.git themes/LoveIt
 以下是 LoveIt 主题的基本配置:
 
 ```toml
-baseURL = "http://example.org/"
+baseURL = "https://example.org/"
 # [en, zh-cn, fr, ...] 设置默认的语言
 defaultContentLanguage = "zh-cn"
 # 网站语言, 仅在这里 CN 大写
@@ -150,7 +150,7 @@ hugo new posts/first_post.md
 hugo serve
 ```
 
-去查看 `http://localhost:1313`.
+去查看 `https://localhost:1313`.
 
 ![基本配置下的预览](/images/theme-documentation-basics/basic-configuration-preview.zh-cn.png "基本配置下的预览")
 

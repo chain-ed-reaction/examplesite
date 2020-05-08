@@ -61,7 +61,7 @@ git submodule add https://github.com/dillonzq/LoveIt.git themes/LoveIt
 The following is a basic configuration for the LoveIt theme:
 
 ```toml
-baseURL = "http://example.org/"
+baseURL = "https://example.org/"
 # [en, zh-cn, fr, ...] determines default content language
 defaultContentLanguage = "en"
 # language code
@@ -131,7 +131,7 @@ Launch by using the following command:
 hugo serve
 ```
 
-Go to `http://localhost:1313`.
+Go to `https://localhost:1313`.
 
 ![Basic configuration preview](/images/theme-documentation-basics/basic-configuration-preview.png "Basic configuration preview")
 
